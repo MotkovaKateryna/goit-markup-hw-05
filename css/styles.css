@@ -554,14 +554,14 @@ background: rgba(33, 150, 243, 0.9);
 
 }
 .backdrop.is-hidden .modal{
-        transform: scale(0.7);
+        transform: translate(-50%,-50%) scale(1.5);
 }
 
 .modal{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%) scale(1);
 
         width: 528px;
         height: 581px;
