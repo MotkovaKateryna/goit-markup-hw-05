@@ -253,7 +253,11 @@ body{
         bottom: 0;
         left: 0;
 
-        padding-top: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
         width: 370px;
         height: 70px;
 
@@ -587,6 +591,6 @@ background: rgba(33, 150, 243, 0.9);
        
 }
 .modal-close-btn-icon{
-        width: 11px;
-        height: 11px;
+        width: 18px;
+        height: 18px;
 }
